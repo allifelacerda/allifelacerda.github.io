@@ -88,6 +88,11 @@
   justify-content: center;
 }
 
+#skills-container {
+  display: flex;
+  justify-content: center;
+}
+
 #email-container ion-icon,
 #email-container a {
   flex: 1 1 0;
@@ -153,22 +158,28 @@
   background-color: transparent;
 }
 
+#rodape {
+	position: absolute;
+	bottom: 0;
+	}
+
 #skills-section-title {
   border-top: 1px solid var(--border-color);
   padding-top: 20px;
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 #skills-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
+  
 }
 
 .skills-box {
-  flex: 1 1 33%;
-  max-width: 33%;
+  flex: 1 1 50%;
+  max-width: 50%;
   margin-bottom: 35px;
 }
 
